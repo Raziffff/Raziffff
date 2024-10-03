@@ -1,0 +1,156 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #800080; /* Purple */
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #FFFFFF; /* White for better contrast */
+}
+
+/* Aspirations List Styles */
+.aspirations-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aspiration {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #E6E6FA; /* Lavender */
+    border-radius: 10px;
+    text-align: left;
+}
+
+.aspiration h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4B0082; /* Dark Purple */
+}
+
+.aspiration p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #4B0082; /* Dark Purple */
+}
+
+/* Button Styles */
+.btn-admin {
+    width: 200px;
+    height: 45px;
+    background: #800080; /* Purple */
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn-admin:hover {
+    background: #9400D3; /* Darker Purple */
+}
+
+/* Form Styles */
+.admin-login-form {
+    margin-top: 20px;
+}
+
+.admin-login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4B0082; /* Dark Purple */
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #888;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #800080; /* Purple */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #9400D3; /* Darker Purple */
+}
+
+/* Back Button Styles */
+.btn {
+    width: 200px;
+    padding: 10px;
+    background-color: #da9dd4; /* Purple */
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #ffffff; /* Darker Purple */
+}
+
+/* Thank You Container Styles */
+.thank-you-container {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.thank-you-message {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff; /* Black color */
+}
